@@ -1,6 +1,8 @@
 body{
     /* buraya googleda 2 numarali kodu kopyala */
     font-family: 'Chakra Petch', sans-serif;
+    width: 100vw;
+    max-width: 540px;
 }
 
 .container {
