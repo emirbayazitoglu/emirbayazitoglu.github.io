@@ -1,0 +1,130 @@
+body{
+    /* buraya googleda 2 numarali kodu kopyala */
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media screen and (max-width: 5000px) {
+    .container {
+        width: 1320px;
+    }
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    color: #58595B;
+}
+
+.header {
+    margin-top: 3rem;
+    grid-column: span 12;
+}
+
+.content {
+    grid-column: span 12;
+    max-width: 500px;
+}
+
+a {
+    color: #777;
+}
+a:hover {
+    color: #000;
+}
+
+h2 {
+    color: rgb(81, 81, 81)
+}
+
+li {
+    margin-left: 1rem;
+}
+
+.header-logo {
+    max-width: 500px;
+}
+
+.cryptedmail:after {
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
+}
+
+.about-me-icon {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.about-me-icon {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.brand-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+@media screen and (max-width: 576px) {
+    .brand-container {
+        grid-column: span 12;
+    }
+}
+
+@media screen and (max-width: 5000px) {
+    .brand-container {
+        grid-column: span 6;
+    }
+}
+
+.brand-container {
+    position: relative;
+    border-style: solid;
+    border-color: rgb(32, 32, 32);
+    border-width: 1px;
+}
+
+.brand-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.brand-body {
+    padding: 0.4rem;
+}
